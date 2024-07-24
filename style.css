@@ -1,5 +1,6 @@
 body{
-    background-color: white;
+    background-color: rgb(165, 216, 255);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .cont{
@@ -19,9 +20,45 @@ body{
     padding-left: 1vw;
 }
 
+.iconot{
+    width: 2vw;
+}
+
+.todo{
+    width: 1.5vw;
+}
+
+.abri{
+    width: 1.5vw;
+}
+
+.cam{
+    width: 1.5vw;
+}
+
+.pnt{
+    width: 1.5vw;
+}
+
+.carr{
+    width: 1.5vw;
+}
+
+.camp{
+    position: absolute;
+    width: 3vw;
+    top: 42.5vw;
+    left: 3.5vw;
+}
+
 .log{
     font-size: 2vw;
     margin-left: 2cm;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
 }
 
 .nav p{
@@ -37,12 +74,21 @@ body{
 }
 
 .prod{
+    overflow: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: auto;
     background-color: rgb(175, 208, 214);
+    border-radius: 1vw;
     position: absolute;
     height: 45.5vw;
     width: 70vw;
     left: 27vw;
     padding-right: 1vw;
+
+}
+
+.tit{
+    margin-left: 1vw;
 }
 
 .pro1{
@@ -74,6 +120,9 @@ body{
 }
 
 .Bagr1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     text-align: center;
     border-radius: 1VW;
@@ -115,6 +164,9 @@ body{
 }
 
 .Bagr2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     text-align: center;
     border-radius: 1VW;
@@ -155,6 +207,9 @@ body{
 }
 
 .Bagr3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     text-align: center;
     border-radius: 1VW;
@@ -196,6 +251,239 @@ body{
 }
 
 .Bagr4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    border-radius: 1VW;
+    background-color: rgb(175, 208, 214);
+    width: 4VW;
+    height: 1.5vw;
+    left: 5.5vw;
+    top: 2vw;
+}
+
+.pro5{
+    position: absolute;
+    border-radius: 1vw;
+    border: 1px solid black;
+    width: 10vw;
+    height: 14vw;
+    margin: 1vw;
+    left: 0vw;
+    top: 23vw;
+}
+
+.Cpro5{
+    font-size: 0.7vw;
+    background-color: white;
+    border-radius: 1vw;
+    border: 1px solid black;
+    position: absolute;
+    width: 10vw;
+    height: 4vw;
+    margin-top: 13vw;
+    left: 1vw;
+    top: 23vw;
+}
+
+.Npro5{
+    margin: 0.3vw;
+}
+
+.pre5{
+    margin-left: 0.5vw;
+}
+
+.Bagr5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    border-radius: 1VW;
+    background-color: rgb(175, 208, 214);
+    width: 4VW;
+    height: 1.5vw;
+    left: 5.5vw;
+    top: 2vw;
+}
+
+.pro6{
+    position: absolute;
+    border-radius: 1vw;
+    border: 1px solid black;
+    width: 10vw;
+    height: 14vw;
+    margin: 1vw;
+    left: 18vw;
+    top: 23vw;
+}
+
+.Cpro6{
+    font-size: 0.7vw;
+    background-color: white;
+    border-radius: 1vw;
+    border: 1px solid black;
+    position: absolute;
+    width: 10vw;
+    height: 4vw;
+    margin-top: 13vw;
+    left: 19vw;
+    top: 23vw;
+}
+
+.Npro6{
+    margin: 0.3vw;
+}
+
+.pre6{
+    margin-left: 0.5vw;
+}
+
+.Bagr6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    border-radius: 1VW;
+    background-color: rgb(175, 208, 214);
+    width: 4VW;
+    height: 1.5vw;
+    left: 5.5vw;
+    top: 2vw;
+}
+
+.pro7{
+    position: absolute;
+    border-radius: 1vw;
+    border: 1px solid black;
+    width: 10vw;
+    height: 14vw;
+    margin: 1vw;
+    left: 35vw;
+    top: 23vw;
+}
+
+.Cpro7{
+    font-size: 0.7vw;
+    background-color: white;
+    border-radius: 1vw;
+    border: 1px solid black;
+    position: absolute;
+    width: 10vw;
+    height: 4vw;
+    margin-top: 13vw;
+    left: 36vw;
+    top: 23vw;
+}
+
+.Npro7{
+    margin: 0.3vw;
+}
+
+.pre7{
+    margin-left: 0.5vw;
+}
+
+.Bagr7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    border-radius: 1VW;
+    background-color: rgb(175, 208, 214);
+    width: 4VW;
+    height: 1.5vw;
+    left: 5.5vw;
+    top: 2vw;
+}
+
+.pro8{
+    position: absolute;
+    border-radius: 1vw;
+    border: 1px solid black;
+    width: 10vw;
+    height: 14vw;
+    margin: 1vw;
+    left: 52vw;
+    top: 23vw;
+}
+
+.Cpro8{
+    font-size: 0.7vw;
+    background-color: white;
+    border-radius: 1vw;
+    border: 1px solid black;
+    position: absolute;
+    width: 10vw;
+    height: 4vw;
+    margin-top: 13vw;
+    left: 53vw;
+    top: 23vw;
+}
+
+.Npro8{
+    margin: 0.3vw;
+}
+
+.pre8{
+    margin-left: 0.5vw;
+}
+
+.Bagr8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    border-radius: 1VW;
+    background-color: rgb(175, 208, 214);
+    width: 4VW;
+    height: 1.5vw;
+    left: 5.5vw;
+    top: 2vw;
+}
+
+.pro9{
+    position: absolute;
+    border-radius: 1vw;
+    border: 1px solid black;
+    width: 10vw;
+    height: 14vw;
+    margin: 1vw;
+    left: 0vw;
+    top: 41vw;
+}
+
+.Cpro9{
+    font-size: 0.7vw;
+    background-color: white;
+    border-radius: 1vw;
+    border: 1px solid black;
+    position: absolute;
+    width: 10vw;
+    height: 4vw;
+    margin-top: 13vw;
+    left: 1vw;
+    top: 41vw;
+}
+
+.Npro9{
+    margin: 0.3vw;
+}
+
+.pre9{
+    margin-left: 0.5vw;
+}
+
+.Bagr9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     text-align: center;
     border-radius: 1VW;
