@@ -52,7 +52,7 @@ body{
 .camp{
     position: absolute;
     width: 3vw;
-    top: 42.5vw;
+    top: 27vw;
     left: 3.5vw;
 }
 
@@ -103,14 +103,15 @@ body{
 
 .contprod1{
     position: absolute;
-    top: 4vw;
+    top: 5vw;
+    left: 2vw;
 }
 
 .pro1{
+    position: absolute;
     border-radius: 1vw;
     border: 1px solid black;
     width: 10vw;
-    margin: 1vw;
 }
 
 .Cpro1{
@@ -123,7 +124,6 @@ body{
     position: absolute;
     width: 10vw;
     height: 4vw;
-    left: 1vw;
 }
 
 .Npro1{
@@ -148,14 +148,18 @@ body{
     top: 2vw;
 }
 
+.contprod2{
+    position: absolute;
+    top: 5vw;
+    left: 19vw;
+}
+
 .pro2{
     position: absolute;
-    left: 18vw;
     border-radius: 1vw;
     border: 1px solid black;
     width: 10vw;
-    height: 16vw;
-    margin: 1vw;
+    height: 14vw;
 }
 
 .Cpro2{
@@ -168,8 +172,6 @@ body{
     position: absolute;
     width: 10vw;
     height: 4vw;
-    margin-top: 13vw;
-    left: 19vw;
 }
 
 .Npro2{
@@ -194,13 +196,17 @@ body{
     top: 2vw;
 }
 
+.contprod3{
+    position: absolute;
+    top: 5vw;
+    left: 36vw;
+}
+
 .pro3{
     position: absolute;
     border-radius: 1vw;
     border: 1px solid black;
     width: 10vw;
-    margin: 1vw;
-    left: 35vw;
 }
 
 .Cpro3{
@@ -212,7 +218,6 @@ body{
     width: 10vw;
     height: 4vw;
     margin-top: 13vw;
-    left: 36vw;
 }
 
 .Npro3{
