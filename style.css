@@ -101,7 +101,7 @@ body{
     font-size: 2vw;
 }
 
-.contprod{
+.contprod1{
     position: absolute;
     top: 4vw;
 }
@@ -114,6 +114,8 @@ body{
 }
 
 .Cpro1{
+    position: absolute;
+    top: 13vw;
     font-size: 0.7vw;
     background-color: white;
     border-radius: 1vw;
@@ -157,6 +159,8 @@ body{
 }
 
 .Cpro2{
+    position: absolute;
+    top: 13vw;
     font-size: 0.7vw;
     background-color: white;
     border-radius: 1vw;
