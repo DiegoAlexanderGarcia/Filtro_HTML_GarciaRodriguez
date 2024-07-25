@@ -9,19 +9,24 @@ body{
 }
 
 .nav{
+    position: absolute;
+    top: 15vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     text-align: left;
     background-color: rgb(165, 216, 255);
     position: absolute;
-    height: 45.5vw;
+    height: 30vw;
     width: 25vw;
     padding-left: 1vw;
 }
 
 .iconot{
+    position: absolute;
+    top: -0.1vw;
     width: 2vw;
+    left: -2.5vw;
 }
 
 .todo{
@@ -52,8 +57,11 @@ body{
 }
 
 .log{
+    position: absolute;
+    top: -13vw;
     font-size: 2vw;
-    margin-left: 2cm;
+    margin-left: 2vw;
+    left: 3vw;
 }
 
 .nav a{
@@ -88,11 +96,17 @@ body{
 }
 
 .tit{
+    position: absolute;
     margin-left: 1vw;
+    font-size: 2vw;
+}
+
+.contprod{
+    position: absolute;
+    top: 4vw;
 }
 
 .pro1{
-    position: absolute;
     border-radius: 1vw;
     border: 1px solid black;
     width: 10vw;
@@ -107,7 +121,6 @@ body{
     position: absolute;
     width: 10vw;
     height: 4vw;
-    margin-top: 13vw;
     left: 1vw;
 }
 
